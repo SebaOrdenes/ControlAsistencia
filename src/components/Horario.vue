@@ -15,7 +15,10 @@
     <div class="mt-3">Selected: <strong>{{ dias  }} /{{Horas}}/{{tipo}}</strong></div>
   </div>  
 
-
+<div class="md-form">
+  <input placeholder="Selected time" type="text" id="input_starttime" class="form-control timepicker">
+  <label for="input_starttime">Twelve hour clock</label>
+</div>
 
 
 
